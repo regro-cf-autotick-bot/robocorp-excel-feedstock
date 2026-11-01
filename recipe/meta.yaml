@@ -1,5 +1,5 @@
 {% set name = "robocorp-excel" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/robocorp_excel-{{ version }}.tar.gz
-  sha256: e63e9da56ec236a16c632aca5d6236ab60b4ef718fa0cf43b5350f033700e459
+  sha256: dfdbdf66f7dc4a5ef87efcc6403b9ed4d7c4526dfaaa585db4ae8662ca09ef52
 
 build:
   noarch: python
